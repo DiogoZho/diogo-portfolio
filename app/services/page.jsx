@@ -8,28 +8,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Skilled web developer with expertise in creating responsive, user-friendly websites and web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks. Open to opportunities—reach out to collaborate!",
     href: "",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Passionate UI/UX designer focused on crafting intuitive and engaging user experiences. Skilled in wireframing, prototyping, and user research. Let’s connect to create impactful designs!",
     href: "",
   },
   {
     num: "03",
     title: "Logo Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Crafting unique and memorable logos that capture your brand’s essence. Expert in creating designs that stand the test of time. Let’s collaborate and create something unforgettable!.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "c++",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Skilled C++ developer with a focus on building efficient, high-performance applications. Experienced in system-level programming, algorithms, and optimization. Let’s work together to bring your complex projects to life with C++!",
     href: "",
   },
 ];

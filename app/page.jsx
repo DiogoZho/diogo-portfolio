@@ -15,7 +15,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Luke Coleman</span>
+              Hello I'm <br /> <span className="text-accent">Diogo Pereira</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I am
@@ -28,7 +28,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                 <span><a href="https://www.canva.com/design/DAGbLUJ8Fdw/xNpIR-8ZfX1xmFWkOGsh2Q/edit?utm_content=DAGbLUJ8Fdw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Download CV</a></span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

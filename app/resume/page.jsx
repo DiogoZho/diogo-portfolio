@@ -15,31 +15,31 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Dedicated and motivated professional. Passionate about Web Design, with a proven ability to learn. Eager to contribute skills and grow within a dynamic team environment.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Diogo Pereira",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+351) 935 551 812",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "0 Years",
     },
     {
       fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldValue: "Diogo.Zho",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Portuguese",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "vpdiogo2001@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +47,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Portuguese, Spanish",
     },
   ],
 };
@@ -57,38 +57,19 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Here is my life in the world of work",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Bosch Car Multimédia, SA",
+      position: "Machine Operator",
+      duration: "2022 - 2023",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
+      company: "D8 Solucions",
+      position: "Quality Operator",
       duration: "2020 - 2021",
     },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
-    },
+
   ],
 };
 
@@ -97,38 +78,19 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Here are the schools and education I attended ",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
-    },
-    {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
+      institution: "Instituto Politécnico do Cávado e do Ave",
+      degree: "Desenvolvimento Web e Multimédia",
       duration: "2020 - 2021",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "Escola Sá de Miranda",
+      degree: "Técnico de Gestão e programação",
+      duration: "2016 - 2019",
     },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+
   ],
 };
 
@@ -136,7 +98,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "These are some of the skills I acquired throughout my academic career.",
   skillList: [
     {
       icon: <FaHtml5 />,

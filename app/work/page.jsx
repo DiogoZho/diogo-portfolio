@@ -22,36 +22,36 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Identity Manual ",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Here we have an Identity Manual of a company that sells products, related to coding",
+    stack: [{ name: "Canva" }, { name: "Power Point" }],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://www.canva.com/design/DAGbLpvTCgg/eROfQHa9uUf1n-yIi8O41g/edit?ui=eyJIIjp7IkEiOnRydWV9fQ",
+    github: "https://github.com/DiogoZho",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "",
+    stack: [{ name: "" }, { name: "" }, { name: "" }],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/DiogoZho",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "",
+    stack: [{ name: "" }, { name: "" }],
     image: "/assets/work/thumb3.png",
     live: "",
-    github: "",
+    github: "https://github.com/DiogoZho",
   },
 ];
 
@@ -109,23 +109,23 @@ const Work = () => {
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent"/>
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Live project</p>
+                        <p>Canva</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> 
                 {/* github project button */}
-                <Link href={project.github}>
+                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                        <BsGithub className="text-white text-3xl group-hover:text-accent"/>
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Github repository</p>
+                        <p>GitHub</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
