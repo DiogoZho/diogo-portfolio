@@ -31,7 +31,7 @@ const projects = [
     live: "https://www.canva.com/design/DAGbLpvTCgg/eROfQHa9uUf1n-yIi8O41g/edit?ui=eyJIIjp7IkEiOnRydWV9fQ",
     github: "https://github.com/DiogoZho",
   },
-  {
+  /* {
     num: "02",
     category: "",
     title: "project 2",
@@ -52,7 +52,7 @@ const projects = [
     image: "/assets/work/thumb3.png",
     live: "",
     github: "https://github.com/DiogoZho",
-  },
+  }, */
 ];
 
 const Work = () => {
