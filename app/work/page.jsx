@@ -31,17 +31,17 @@ const projects = [
     live: "https://www.canva.com/design/DAGbLpvTCgg/eROfQHa9uUf1n-yIi8O41g/edit?ui=eyJIIjp7IkEiOnRydWV9fQ",
     github: "https://github.com/DiogoZho",
   },
-  /* {
+  {
     num: "02",
-    category: "",
+    category: "Identity Manual",
     title: "project 2",
     description:
-      "",
-    stack: [{ name: "" }, { name: "" }, { name: "" }],
+      "Here i made another variant of that same Manual of codeMarket",
+    stack: [{ name: "Canva" }, { name: "Power Point" }, { name: "Pinterest" }],
     image: "/assets/work/thumb2.png",
-    live: "",
+    live: "https://www.canva.com/design/DAGdZ3vBal0/FeUi70htgWiWzR0XjvopfA/edit?ui=eyJIIjp7IkEiOnRydWV9fQ",
     github: "https://github.com/DiogoZho",
-  },
+  },/*
   {
     num: "03",
     category: "",
