@@ -22,7 +22,7 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Identity Manual ",
+    category: "Identity Manual CodeMarket",
     title: "project 1",
     description:
       "Here we have an Identity Manual of a company that sells products, related to coding",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     num: "02",
-    category: "Identity Manual",
+    category: "Identity Manual CodeMarket",
     title: "project 2",
     description:
       "Here i made another variant of that same Manual of codeMarket",
